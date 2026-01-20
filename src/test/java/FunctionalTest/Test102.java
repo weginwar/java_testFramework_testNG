@@ -8,8 +8,8 @@ import org.testng.annotations.Test;
 
 public class Test102 {
 	
-	
-	@Test(invocationCount=3,timeOut=10000,threadPoolSize=3,groups= {"smoke","regression"})
+	//invocationCount=3,timeOut=10000,threadPoolSize=3,groups= {"smoke","regression"
+	@Test()
 	public static void test01() {
 		
 		WebDriver driver = new ChromeDriver();
